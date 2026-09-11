@@ -32,7 +32,43 @@
         </div>
     </nav>
 
-    
+    <!-- Слайдер (Карусель) :D --> 
+    <section id="promo" class="bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Наши новинки</h2>
+            <div class="carousel-container">
+                <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="1"></button>
+                    </div>
+                    <div class="carousel-inner rounded shadow">
+                        <div class="carousel-item active">
+                            <img src="https://placehold.co/800x400/2c3e50/ffffff?text=Мировая+Классика" class="d-block w-100" alt="Книга 1">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                <h5>Шедевры литературы</h5>
+                                <p>Скидка 20% на все классические произведения в этом месяце.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://placehold.co/800x400/8e44ad/ffffff?text=Современная+Проза" class="d-block w-100" alt="Книга 2">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                <h5>Современные авторы</h5>
+                                <p>Откройте для себя новые имена в мире современной прозы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Карточки (с заполнителями) (0_0) -->
     <section id="catalog">
         <div class="container">
